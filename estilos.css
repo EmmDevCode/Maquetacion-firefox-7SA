@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: black;
+}
+
+.ancho {
+    /* border: 1px red solid; */
+    max-width: 1200px;
+    margin: auto;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.margen {
+    padding: 15px;
+}
+
+.negritas {
+    font-weight: bold;
+}
+
+.cabecera {
+    background-color: gray;
+    height: 2px;
+    border: none;
+    margin: 0;
+}
+
+.menu {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-cabecera img {
+    width: 150px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.menu a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.menu button {
+    border-radius: 7px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    font-size: 15px;
+    padding: 8px 30px;
+    margin-left: auto;
+}
+
+.contenido1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.texto-izquierda {
+    width: 50%;
+}
+
+.logo-firefox img {
+    width: 120px;
+    height: auto;
+}
+
+.contenido1 h1 {
+    font-size: 42px;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.contenido1 p {
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.contenido1 button {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 12px 30px;
+    border: none;
+}
+
+.contenido1 span {
+    font-size: 11px;
+    color: #555;
+    margin-left: 10px;
+}
+
+.img-computadora {
+    width: 48%;
+    text-align: center;
+}
+
+.img-computadora img {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+}
+
+
+.cuadro-gris {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-dinosaurio img {
+    width: 280px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.texto-gris {
+    width: 290px;
+    text-align: center;
+}
+
+.texto-gris h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 0;
+}
+
+.texto-gris p {
+    line-height: 22px;
+}
+
+
+.contenido2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.columna {
+    width: 50%;
+    padding: 30px 45px;
+    box-sizing: border-box;
+}
+
+.linea {
+    border-right: 1px solid #ccc;
+}
+
+.contenido2 h2 {
+    color: #333;
+}
+
+.contenido2 p {
+    line-height: 22px;
+}
+
+.contenido2 ul {
+    padding-left: 0;
+    line-height: 22px;
+}
+
+.contenido2 a {
+    color: blue;
+    font-weight: bold;
+}
+
+.contenido3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjeta {
+    width: 30%;
+    text-align: center;
+}
+
+.tarjeta img {
+    width: 100px;
+    height: auto;
+}
+
+.tarjeta h2 {
+    font-size: 28px;
+}
+
+.tarjeta a {
+    color: black;
+}
+
+.tarjeta p {
+    color: #333;
+    line-height: 22px;
+    padding: 0 30px;
+}
+
+.contenido4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.img-noticias {
+    width: 45%;
+    text-align: center;
+}
+
+.img-noticias img {
+    width: 180px;
+    height: auto;
+}
+
+.formulario {
+    width: 370px;
+}
+
+.formulario h2 {
+    font-size: 28px;
+}
+
+.formulario label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.formulario input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.formulario button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 9px;
+    border: none;
+    border-radius: 4px;
+}
+
+.formulario span {
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.pie {
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+}
+
+.pie img {
+    width: 110px;
+    height: auto;
+}
